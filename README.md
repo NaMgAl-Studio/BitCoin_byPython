@@ -1,3 +1,16 @@
+## Our Team
+
+This is NaMgAl Studio, and we’re constantly working to develop more modern,decentralized currency solutions.  
+
+# Donation link:  
+
+0xA4A9f7C8c1E178C33D42526b424BB6c270a52624(ERC20)
+bc1pnx7hnh05ycezgzr8hcclxqlx2psuytqzp73wdk9eg38z40lt0vsqq3e7u6(bitcoin)
+# Contact us on 
+Twitter/X:@NaMgAl_Studio
+               Facebook:https://www.facebook.com/share/1B573S9MZ6/
+               Telegram:t.me/NaCoinGroup
+
 # Bitcoin Core Python Implementation
 
 A Python implementation of Bitcoin Core, providing a full node, wallet, RPC server, and all core consensus logic — following the original C++ implementation closely.
