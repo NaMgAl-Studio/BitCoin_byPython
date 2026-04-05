@@ -2,12 +2,6 @@
 
 A Python implementation of Bitcoin Core, providing a full node, wallet, RPC server, and all core consensus logic — following the original C++ implementation closely.
 
-## Project Status
-
-**Phase 0–5: Complete** ✅
-
-All major Bitcoin Core subsystems have been implemented, including data structures, cryptographic primitives, script engine, consensus validation, P2P networking, wallet management, and RPC/API interfaces.
-
 ## Implemented Modules
 
 ### Primitives (Transaction & Block Data Structures)
@@ -116,29 +110,11 @@ All major Bitcoin Core subsystems have been implemented, including data structur
 - ✅ `ConvertBits` - Bit conversion for Bech32
 - ✅ Time utilities (GetTime, ISO8601 parsing)
 
-## Installation
-
-```bash
-cd bitcoin-python
-pip install -e ".[dev]"
-```
-
-## Testing
-
-```bash
-# Run all tests
-pytest tests/ -v
-
-# Run specific test file
-pytest tests/unit/test_crypto.py -v
-
-# Run with coverage
-pytest tests/ --cov=bitcoin --cov-report=html
 ```
 
 ## Project Structure
 
-```
+```bash
 bitcoin-python/
 ├── src/bitcoin/
 │   ├── __init__.py
@@ -248,7 +224,9 @@ pip install -r requirements-build.txt
 python build_exe.py --all --clean
 ```
 
-The executables will be created in the `dist/` directory:
+The executables will be created in the `dist/` directory.
+
+## Python Executables
 - `bitcoind-py` — Bitcoin node server
 - `bitcoin-cli-py` — RPC command-line client
 - `bitcoin-wallet-py` — Wallet management tool
@@ -263,10 +241,6 @@ The executables will be created in the `dist/` directory:
 - `aiohttp` — Async HTTP client
 - `pyzmq` — ZeroMQ messaging
 
-### Development
-- `pytest` — Testing framework
-- `mypy` — Type checking
-- `ruff` / `black` / `isort` — Code formatting
 
 ## License
 
